@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/activity_main"
+        android:background="@color/colorTop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/zxing"
+            android:background="@mipmap/sys"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@color/colorTop"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="8dp"
+
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="                              搜索一下"
+                android:id="@+id/edittext"
+                android:background="@color/colorTop2"
+
+
+                android:drawableRight="@mipmap/sousuo"
+
+                />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/pl" />
+
+
+
+    </LinearLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/xrecyclerview"
+        ></com.jcodecraeer.xrecyclerview.XRecyclerView>
+</RelativeLayout>

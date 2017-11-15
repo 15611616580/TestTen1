@@ -1,0 +1,69 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="activity_main">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:orientation">horizontal</item>
+
+    </style>
+    <style name="fragment4_listLinlayaot">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+    <style name="fragment4_image1">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="fragment4_text">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+    <style name="fragment4_image2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#fff</item>
+        <item name="android:layout_marginLeft">320dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <style name="fragment4_Ridiogroup">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">#fff</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+    <style name="fragment4_radiobutton">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+
+</resources>

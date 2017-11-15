@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/L"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorTop"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出登录"
+            android:layout_marginLeft="400dp"
+            android:textSize="15dp"
+            android:id="@+id/tcdl"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/userimage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:text="用户的id" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorTop2"
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                style="@style/fragment4_radiobutton"
+                android:drawableTop="@drawable/xin"
+                android:text="商品：0"
+                android:id="@+id/shangpin"
+                />
+            <RadioButton
+                style="@style/fragment4_radiobutton"
+                android:drawableTop="@drawable/fang"
+                android:text="店铺：0"
+                android:id="@+id/dianpu"
+                />
+            <RadioButton style="@style/fragment4_radiobutton"
+                android:drawableTop="@drawable/jiao"
+                android:text="我的足迹"
+                android:id="@+id/zuji"
+                />
+        </RadioGroup>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:orientation="vertical"
+        android:id="@+id/all"
+        >
+        <LinearLayout
+            style="@style/fragment4_listLinlayaot"
+            >
+            <ImageView
+                style="@style/fragment4_image1"
+                android:background="@mipmap/qbdd"
+
+                />
+            <TextView
+                style="@style/fragment4_text"
+                android:text="全部订单"
+
+                />
+            <ImageView
+                style="@style/fragment4_image2"
+                android:background="@mipmap/go"
+                />
+        </LinearLayout>
+
+        <RadioGroup
+            style="@style/fragment4_Ridiogroup"
+            >
+            <RadioButton
+
+                android:drawableTop="@mipmap/wfk"
+                android:text="未付款"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/notpay"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/dfh"
+                android:text="待发货"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/wait"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/dsh"
+                android:text="待收货"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/dsh"
+                />
+            <RadioButton
+                android:drawableTop="@mipmap/dpj"
+                android:text="待评价"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/notwait"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/tk"
+                android:text="退款/货"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/tuikuai"
+                />
+
+        </RadioGroup>
+        <LinearLayout
+            style="@style/fragment4_listLinlayaot"
+            android:id="@+id/wdcc"
+            >
+            <ImageView
+                style="@style/fragment4_image1"
+                android:background="@mipmap/wdcc"
+
+                />
+            <TextView
+                style="@style/fragment4_text"
+                android:text="我的财产"
+
+                />
+            <ImageView
+                style="@style/fragment4_image2"
+                android:background="@mipmap/go"
+                />
+        </LinearLayout>
+        <RadioGroup
+            style="@style/fragment4_Ridiogroup"
+            >
+            <RadioButton
+
+                android:drawableTop="@mipmap/yck"
+                android:text="预存款"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/yck"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/czk"
+                android:text="充值卡"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/czk"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/djj"
+                android:text="代金券"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/djj"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/hx"
+                android:text="红包"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/hb"
+                />
+            <RadioButton
+
+                android:drawableTop="@mipmap/jf"
+                android:text="积分"
+                style="@style/fragment4_radiobutton"
+                android:id="@+id/jf"
+                />
+
+        </RadioGroup>
+        <LinearLayout
+            style="@style/fragment4_listLinlayaot"
+            android:id="@+id/adress"
+            >
+            <ImageView
+                style="@style/fragment4_image1"
+                android:background="@mipmap/shdz"
+
+                />
+            <TextView
+                style="@style/fragment4_text"
+                android:text="收货地址"
+
+                />
+            <ImageView
+                style="@style/fragment4_image2"
+                android:background="@mipmap/go"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            style="@style/fragment4_listLinlayaot"
+            android:id="@+id/xtsz"
+            >
+            <ImageView
+                style="@style/fragment4_image1"
+                android:background="@mipmap/sz"
+
+                />
+            <TextView
+                style="@style/fragment4_text"
+                android:text="系统设置"
+
+                />
+            <ImageView
+                style="@style/fragment4_image2"
+                android:background="@mipmap/go"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
